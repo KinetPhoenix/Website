@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="./style/index.css" />
+    <title id="title"></title>
+  </head>
+  <body>
+    <div class="window">
+      <div class="title-bar">
+        <p id="title-bar-title">Aditya's portfolio</p>
+        <div class="title-bar-navigation">
+          <div class="dot dot-3"></div>
+          <div class="dot dot-2"></div>
+          <div class="dot dot-1"></div>
+        </div>
+      </div>
+      <div id="terminal" class="terminal"></div>
+    </div>
+    <div class="footer">
+      <p id="copyright-text">Copyright 2020 Aditya</p>
+    </div>
+    <div id="notification">
+      <p>This Screen is not supported yet!</p>
+      <a onclick="continueClick()">Continue Anyway</a>
+    </div>
+    <script
+      type="text/javascript"
+      type="module"
+      src="./scripts/notification.js"
+    ></script>
+    <script type="text/javascript" type="module" src="./config.js"></script>
+    <script
+      type="text/javascript"
+      type="module"
+      src="./scripts/app.js"
+    ></script>
+  </body>
+</html>
